@@ -1,8 +1,8 @@
 {
   "rewrites": [
     {
-      "source": "/api/express/(.*)***?????**",
-      "destination": "/api/express"
+      "source": "/api/express/(.*)",
+      "destination": "*********/api/express"
     },
     {
       "source": "/api/hono/(.*)",
